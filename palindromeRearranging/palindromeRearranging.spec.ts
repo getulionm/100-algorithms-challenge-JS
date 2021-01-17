@@ -1,14 +1,14 @@
 import { palindromeRearranging } from './palindromeRearranging';
 
-xdescribe(palindromeRearranging.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const inputString = 'aabb';
+describe(palindromeRearranging.name, () => {
+  it('Test 1', () => {
+    // arrange
+    const inputString = 'aabb';
 
-        // act
-        const response = palindromeRearranging(inputString);
+    // act
+    const response = palindromeRearranging(inputString);
 
-        // assert 
-        expect(response).toBe(true);
-    });
+    // assert
+    expect(response).toBe(true);
+  });
 });
